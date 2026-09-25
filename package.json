@@ -1,0 +1,14 @@
+{
+  "name": "craft-claims",
+  "version": "0.1.0",
+  "description": "传统技艺内容依据管理的服务端基础",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "build": "node --check src/clock.js && node --check src/store.js && node --check src/service.js && node --check src/api.js && node --check src/cli.js",
+    "cli": "node src/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
