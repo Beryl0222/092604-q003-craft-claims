@@ -4,8 +4,8 @@
   "description": "传统技艺内容依据管理的服务端基础",
   "type": "module",
   "scripts": {
-    "test": "node --test",
-    "build": "node --check src/clock.js && node --check src/store.js && node --check src/service.js && node --check src/api.js && node --check src/cli.js",
+    "test": "node --test test/*.test.js",
+    "build": "node --check src/clock.js && node --check src/errors.js && node --check src/lock.js && node --check src/policy.js && node --check src/store.js && node --check src/service.js && node --check src/api.js && node --check src/cli.js",
     "cli": "node src/cli.js"
   },
   "engines": {
